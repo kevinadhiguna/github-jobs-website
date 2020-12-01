@@ -28,6 +28,7 @@ function App() {
       <h1 className="mb-4 loader">
         <span role="img" aria-label="briefcase">💼</span>
         Github Jobs
+        <span role="img" aria-label="coder">👨‍💻</span>
       </h1>
       <SearchForm 
         params={params} 
