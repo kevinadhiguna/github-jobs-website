@@ -44,7 +44,7 @@ function App() {
                 color={"#000"}
               />
             </div>
-            <h1>Loading...</h1>
+            <h1>Please wait for a moment...</h1>
           </div>
         </>
       )}
