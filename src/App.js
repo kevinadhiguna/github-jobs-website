@@ -41,6 +41,7 @@ function App() {
           <div className="loading">
             <div className="loader">
               <ClockLoader 
+                size={100}
                 color={"#000"}
               />
             </div>
