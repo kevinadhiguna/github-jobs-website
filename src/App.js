@@ -25,7 +25,10 @@ function App() {
 
   return (
     <Container className="my-4">
-      <h1 className="mb-4">💼 Github Jobs</h1>
+      <h1 className="mb-4 loader">
+        <span role="img" aria-label="briefcase">💼</span>
+        Github Jobs
+      </h1>
       <SearchForm 
         params={params} 
         onParamChange={handleParamChange} 
