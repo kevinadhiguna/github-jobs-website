@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
+import ClockLoader from 'react-spinners/ClockLoader';
+
 // useFetchJobs acts like a custom hook
 import useFetchJobs from './useFetchJobs';
 import Job from './Job';
@@ -34,7 +36,16 @@ function App() {
         hasNextPage={hasNextPage} 
       />
       {/* If loading, then show 'Loading...' */}
-      {loading && <h1>Loading...</h1>}
+      {loading && (
+        <>
+          <div className="loading">
+            <ClockLoader 
+              color={"#000"}
+            />
+            <h1>Loading...</h1>
+          </div>
+        </>
+      )}
       {/* If error, then show 'Error... Try Refreshing' */}
       {error &&  <h1>Error.. Try Refreshing:)</h1>}
       {jobs.map(job => {
