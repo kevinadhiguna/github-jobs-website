@@ -39,9 +39,11 @@ function App() {
       {loading && (
         <>
           <div className="loading">
-            <ClockLoader 
-              color={"#000"}
-            />
+            <div className="loader">
+              <ClockLoader 
+                color={"#000"}
+              />
+            </div>
             <h1>Loading...</h1>
           </div>
         </>
