@@ -25,7 +25,7 @@ function App() {
 
   return (
     <Container className="my-4">
-      <h1 className="mb-4 loader">
+      <h1 className="mb-4 center">
         <span role="img" aria-label="coder">👨‍💻</span>
         Github Jobs
         <span role="img" aria-label="briefcase">💼</span>
@@ -43,7 +43,7 @@ function App() {
       {loading && (
         <>
           <div className="loading">
-            <div className="loader">
+            <div className="center">
               <ClockLoader 
                 size={100}
                 color={"#000"}
@@ -54,7 +54,7 @@ function App() {
         </>
       )}
       {/* If error, then show 'Error... Try Refreshing' */}
-      {error &&  <h1>Error.. Try Refreshing:)</h1>}
+      {error &&  <h1 className="center">Error.. Try Refreshing:)</h1>}
       {jobs.map(job => {
         return <Job key={job.id} job={job} />
       })}
