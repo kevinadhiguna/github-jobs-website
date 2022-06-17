@@ -5,6 +5,8 @@
 Seeking for a job in IT fields ? Wanna work as a software developer/engineer ? Then this website is for you!
 Github Jobs Website offers various available positions in information technology, so you can land your dream job soon!
 
+<br />
+
 ## Demo
 
 This is how this app looks :
@@ -16,6 +18,8 @@ You can also filter location of the jobs :
 <img src="https://raw.githubusercontent.com/kevinadhiguna/github-jobs-website/master/demo/gjw-4.png" width="90%"></img> <br><br>
 Feel free to search certain description and location that you want :
 <img src="https://raw.githubusercontent.com/kevinadhiguna/github-jobs-website/master/demo/gjw-5.png" width="90%"></img> <br>
+
+<br />
 
 ## How to Run :
 
@@ -33,7 +37,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+<br />
+
 ## Reference
 - [Traversy Media & WebDev Simplified - Build a GitHub Jobs App With React Hooks](https://youtu.be/fxY1q4SCB64)
+
+<br />
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/github-jobs-website)](https://github.com/kevinadhiguna) 
